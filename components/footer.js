@@ -20,14 +20,14 @@ class Footer extends HTMLElement {
         </div>
         <div>
           <a target="_blank" rel='noopener noreferrer' href='https://www.instagram.com/assistenciaselig/'>
-            INSTAGRAM
+            <i class="fa-brands fa-instagram" style="color: #333333;"></i>
           </a>
-          <Link>
-            TIKTOK
-          </Link>
-          <Link>
-            LINKEDIN
-          </Link>
+          <a>
+            <i class="fa-brands fa-tiktok" style="color: #333333;"></i>
+          </a>
+          <a>
+          <i class="fa-brands fa-linkedin-in" style="color: #333333;"></i>
+          </a>
         </div>
       </div>
       <p style={{ fontSize: '0.8em' }}> Copyright © 2006-2023 SELIG. Todos os direitos reservados. </p>

@@ -1,0 +1,102 @@
+.brandsCarousel {
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  align-items: flex-end;
+  height: 13rem;
+  flex-direction: row;
+}
+
+.brandsCarousel > div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.brandsCarousel > div > div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+  
+.card {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 8rem;
+  align-items: center;
+}
+
+.cardWrapper > div > img {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.brandsCarousel::-webkit-scrollbar {
+  display: none;
+}
+
+.aboutSelig > div {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.aboutSelig > div > p {
+  text-align: justify;
+}
+
+.aboutSelig > div > img {
+  margin-bottom: 1rem;
+}
+
+.aboutSelig > div:nth-of-type(2) > img, .aboutSelig > div:nth-of-type(3) > img {
+  display: none;
+}
+
+.aboutSelig {
+  padding-top: 6rem;
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 10rem;
+  }
+
+  .cardWrapper > div > img {
+    width: 10rem;
+  }
+
+  .aboutSelig {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5rem;
+  }
+
+  .aboutSelig > div:nth-of-type(2) > img, .aboutSelig > div:nth-of-type(3) > img {
+    display: flex;
+    width: 40%;
+  }
+  
+
+  .aboutSelig > div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+    margin: 2rem;
+    align-items: center;
+  }
+
+  .aboutSelig > div > img {
+    width: 40%;
+    border-radius: 18px;
+  }
+}

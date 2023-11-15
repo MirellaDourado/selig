@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeLiG</title>
+
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/selig.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../app.css">
+
+  <script src="../components/header.js" type="text/javascript" defer></script>
+  <script src="../components/footer.js" type="text/javascript" defer></script>
+
+</head>
+<body>
+  <header-component></header-component>
+  <main>  
+    <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0' className='whatsapp-icon'> WPP
+    </a>
+    <div class="aboutSelig">
+      <h2 class="h-config h2-config" style="margin-top: 1rem;"> Sobre Nós </h2>
+        <hr class="hr" />
+      <div>
+      <img src="./asstes/seligFachada" alt='Estrutura da Selig' />
+      <p>
+        A Selig Eletronicos é uma assistência técnica de produtos eletroeletrônicos, fundada em março de 2006, seu objetivo é atender, de maneira diferenciada, os consumidores que precisam dos seus serviços. 
+      </p>
+      </div>
+      <div>
+        <p>
+        Objetivando oferecer maior conforto aos clientes e funcionários, recentemente mudamos de endereço para adequa a nossa estrutura, proporcionando melhores condições de trabalho, além de um aspecto bastante agradável.
+        </p>
+        <img src="../assets/selig-estrutura.jpg" alt='Estrutura interna da Selig' />
+      </div>
+      <div>
+        <img src="../assets/selig-back.jpg" alt='Estrutura de armazenamento da selig'/>
+        <p>Diferente das outras assistências técnicas, a Selig possui uma estrutura e um atendimento que fazem com que seja escolhida pelos consumidores na hora de confiar seus aparelhos para que seja realizado o reparo.</p>
+      </div>
+    </div>
+      <h2 class="h-config"> Alguns Parceiros </h2>
+      <hr class="hr" />
+    <div class="brandsCarousel">
+      <div>
+        <!-- {partnersArray.map(({ src, alt, href }) => (
+          <div
+            class="cardWrapper"
+            key={alt + href}
+            >
+            <div className={styles.card}>
+              <img
+                src={src}
+                alt={alt}
+                width="60px"
+              />
+            </div>
+          </div>
+        ))} -->
+      </div>
+    </div>
+  </main>
+  <footer-component></footer-component>
+</body>
+</html>

@@ -19,7 +19,7 @@ class Header extends HTMLElement {
         <nav id="nav">
           <button class="btnMobile"> MENU </button>
           <ul id="menu">
-            <li> <a href="/selig"> A SeLiG </a></li>
+            <li> <a href="../pages/selig.html"> A SeLiG </a></li>
             <li>
               <a href="/#services"> Nossos Serviços </a>
               <div class="hidenMenu">
