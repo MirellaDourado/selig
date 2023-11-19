@@ -27,19 +27,30 @@ class SocialArea extends HTMLElement {
       align-items: center;
       justify-content: space-between;
     }
+    .socialArea > a {
+      width: 80%;
+      margin-top: 1.5em;
+      height: 15vh;
+      border-radius: 15px;
+      text-decoration: none;
+    }
     
-    .socialArea > button {
+    .socialArea > a > button {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 1.5em;
-      height: 15vh;
-      width: 80%;
+      width: 100%;
+      height: 100%;
       border-radius: 15px;
       font-size: 1.5em;  
       color: white;
       background-color: #ad0303;
       margin-bottom: 3em;
+      border: none;
+    }
+    .socialArea > a :hover {
+      background-color: #930101;
+      cursor: pointer;
     }
     
     .socialArea > div > a {
@@ -86,20 +97,22 @@ class SocialArea extends HTMLElement {
     <div>
       <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
         <i class="fa-brands fa-instagram" style="color: #333333; font-size: 2.3em"></i>
-      <p> Instagram </p>
+      <p style="color: #333333"> Instagram </p>
       </a>
       <a>
         <i class="fa-brands fa-tiktok" style="color: #333333;font-size: 2.2em; margin-bottom: 10px"></i>
-      <p> TikTok </p>
+      <p style="color: #333333"> TikTok </p>
       </a>
       <a>
         <i class="fa-brands fa-linkedin-in" style="color: #333333; font-size: 2.3em"></i>  
-        <p> LinkedIn </p>
+        <p style="color: #333333"> LinkedIn </p>
       </a>
     </div>
-    <button>
-      <p> Fale com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
-    </button>
+    <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
+      <button>
+        <p> Fale com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
+        </button>
+    </a>
   </div>`
   }
   
