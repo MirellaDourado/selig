@@ -139,7 +139,7 @@ class preOs extends HTMLElement {
         <h2 class="h-config h2-config"> Agilize o seu antendimento </h2>
         <hr class="hr" />
         <div class="preOsWrapper">
-          <img src={test} style={{ borderRadius: '15px', position: 'absolute', height: '70vh', left: '0px', zIndex: '-1'}}/>
+          <img src="../assets/pexels-mart-production-7709179.jpg" style="border-radius: 15px; position: absolute; height: 70vh; left: 0px; z-index: -1;"/>
           <div class="meetPreOs">
             <h3 class="h-config h3-config"> Conheça a pre-OS </h3>
             <p>Agilize o seu atendimento no momento da visita a nossa loja utilizando a pre-OS. Você poderá agendar sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.</p>
