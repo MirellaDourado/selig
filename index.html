@@ -6,8 +6,11 @@
   <title>SeLiG Eletrônicos</title>
   <link rel="stylesheet" href="./styles/header.css">
   <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./app.css">
 
   <script src="https://kit.fontawesome.com/b9ff8c608a.js" crossorigin="anonymous"></script>
+
+  <script src="./components/brands.js" type="text/javascript" defer></script>
   <script src="./components/socialArea.js" type="text/javascript" defer></script>
   <script src="./components/header.js" type="text/javascript" defer></script>
   <script src="./components/footer.js" type="text/javascript" defer></script>
@@ -16,10 +19,13 @@
 </head>
 <body>
   <header-component></header-component>
-  <main style="border: 2px blue solid;padding-top: 10em;">
-    <p> TESTE </p>
+  <main style="padding-top: 10rem;">
+    <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0' class="whatsapp-icon" style="text-decoration: none;">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
     <our-services-component></our-services-component>
     <pre-os-component></pre-os-component>
+    <brands-component></brands-component>
     <socialarea-component></socialarea-component>
   </main>
   <footer-component></footer-component>
