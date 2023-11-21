@@ -110,7 +110,7 @@ class SocialArea extends HTMLElement {
     </div>
     <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
       <button>
-        <p> Fale com a nossa equipe <AiOutlineWhatsApp style={{ marginLeft: '0.2em' }} fontSize='1.3em'/> </p>
+        <p> Fale com a nossa equipe <i class="fa-brands fa-whatsapp" style="margin-left: 0.2em; font-size: 1.2em;"></i></p>
         </button>
     </a>
   </div>`
