@@ -51,27 +51,6 @@ class OurServices extends HTMLElement {
       font-size: 1em;
       color: #8A8A8A;
     }
-
-    .hr {
-      opacity: 1;
-      border-top: 0.5em #ad0303 solid;
-      margin: auto;
-      border-radius: 1em;
-      width: 20%;
-    }
-
-    .h-config {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .h2-config {
-      font-weight: bolder;
-      margin-bottom: 0.2em;
-    }
-    
     
     @media (min-width: 1200px) { 
       .ourService {
@@ -80,10 +59,6 @@ class OurServices extends HTMLElement {
 
       .h2-config {
         font-size: 2.5em;
-      }
-
-      .hr {
-        width: 10%;
       }
     
       .icon {
@@ -170,7 +145,7 @@ class OurServices extends HTMLElement {
               <p>Assistência para produtos dentro de garantia</p>
               <p>Descubra marcas e produtos com assistência técnica autorizada para produtos dentro da garantia</p>
             </div>
-            <a href={'/dentro-de-garantia'} class="knowMoreBtn">
+            <a href='/dentro-de-garantia' class="knowMoreBtn">
               Saiba mais
             </a>
           </div>
@@ -181,7 +156,7 @@ class OurServices extends HTMLElement {
               <p> Assistência para produtos fora de garantia </p>
               <p> Descubra  marcas e produtos com assistência técnica autorizada para produtos fora da garantia</p>
             </div>
-            <a href={'/fora-de-garantia'} class="knowMoreBtn">
+            <a href='/fora-de-garantia' class="knowMoreBtn">
               Saiba mais
             </a>
           </div>
@@ -192,7 +167,7 @@ class OurServices extends HTMLElement {
               <p> Assistência técnica especializada </p>
               <p> Descubra as marcas e produtos com assistência técnica especializada </p>
             </div>
-            <a to={'/especializada'} class="knowMoreBtn">
+            <a href='/especializada' class="knowMoreBtn">
               Saiba mais
             </a>
           </div>
