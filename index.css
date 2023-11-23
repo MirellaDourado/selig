@@ -184,6 +184,11 @@
     font-size: 2em;
   }
 
+  .cardWrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
   .cardWrapper > a > img {
     width: 9rem;
   }
