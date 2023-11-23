@@ -24,7 +24,7 @@ class OurServices extends HTMLElement {
       margin-top: 1.5em;
     }
     
-    .homeCard {
+    .cardHome {
       height: 50vh;
       width: 100%;
       display: flex;
@@ -36,18 +36,18 @@ class OurServices extends HTMLElement {
       color: inherit;
     }
     
-    .homeCard > div {
+    .cardHome > div {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 10px;
     }
     
-    .homeCard > div > p:nth-of-type(1) {
+    .cardHome > div > p:nth-of-type(1) {
       font-size: 1.5em;
     }
     
-    .homeCard > div > p:nth-of-type(2) {
+    .cardHome > div > p:nth-of-type(2) {
       font-size: 1em;
       color: #8A8A8A;
     }
@@ -76,7 +76,7 @@ class OurServices extends HTMLElement {
         margin-top: 1.5em;
       }
     
-      .homeCard {
+      .cardHome {
         height: 65vh;
         width: 29%;
         display: flex;
@@ -87,11 +87,11 @@ class OurServices extends HTMLElement {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
       }
     
-    .homeCard:hover {
+    .cardHome:hover {
       box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
     
-    .homeCard div {
+    .cardHome div {
       width: 90%;
       display: flex;
       flex-direction: column;
@@ -99,11 +99,11 @@ class OurServices extends HTMLElement {
       gap: 10px;
     }
     
-    .homeCard p:nth-of-type(1) {
+    .cardHome p:nth-of-type(1) {
       font-size: 1.3em;
     }
     
-    .homeCard p:nth-of-type(2) {
+    .cardHome p:nth-of-type(2) {
       color: #8A8A8A;
       font-size: 0.8em;
     }
@@ -124,6 +124,8 @@ class OurServices extends HTMLElement {
       height: 2rem;
       text-align: center;
       cursor: pointer;
+      height: 3rem;
+      width: 10rem;
     }
     
     .knowMoreBtn:hover {
@@ -139,7 +141,7 @@ class OurServices extends HTMLElement {
         <h2 class='h-config h2-config'> Nossos Serviços </h2>
         <hr class='hr' />
         <div>
-          <div class="homeCard">
+          <div class="cardHome">
           <i class="fa-solid fa-shield icon"></i>
             <div>
               <p>Assistência para produtos dentro de garantia</p>
@@ -150,7 +152,7 @@ class OurServices extends HTMLElement {
             </a>
           </div>
 
-          <div class="homeCard">
+          <div class="cardHome">
             <i class="fa-solid fa-circle-exclamation icon"></i>
             <div>
               <p> Assistência para produtos fora de garantia </p>
@@ -161,7 +163,7 @@ class OurServices extends HTMLElement {
             </a>
           </div>
      
-          <div class="homeCard">
+          <div class="cardHome">
           <i class="fa-solid fa-wrench icon"></i>
             <div>
               <p> Assistência técnica especializada </p>
