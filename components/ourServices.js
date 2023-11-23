@@ -172,39 +172,6 @@ class OurServices extends HTMLElement {
             </a>
           </div>
         </div>
-        <div id="ourServices" class="carousel slide ourServiceCarousel" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#ourServices" data-slide-to="0" class="active"></li>
-        <li data-target="#ourServices" data-slide-to="1"></li>
-        <li data-target="#ourServices" data-slide-to="2"></li>
-      </ol>
-  
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="./assets/banner/banner-1.png" alt="Los Angeles" style="width:100%;">
-        </div>
-  
-        <div class="item">
-          <img src="./assets/banner/banner-2.png" alt="Chicago" style="width:100%;">
-        </div>
-      
-        <div class="item">
-          <img src="./assets/banner/banner-3.png" alt="New york" style="width:100%;">
-        </div>
-      </div>
-  
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#ourServices" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="right carousel-control" href="#ourServices" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div>
   </section>`
   }
 }
