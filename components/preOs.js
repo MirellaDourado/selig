@@ -16,7 +16,7 @@ class preOs extends HTMLElement {
       }
       
       .homeCard {
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -33,7 +33,7 @@ class preOs extends HTMLElement {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        margin-bottom: 2pc;
+        height: 100%;
       }
       
       .homeCard > div > h3 {
@@ -150,6 +150,34 @@ class preOs extends HTMLElement {
             <p> Caso já tenha preenchido uma pre-OS e deseje saber o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
             <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar OS </button> </a>
           </div>
+        </div>
+        
+        <div id="preOs" class="carousel slide preOsCarousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#preOs" data-slide-to="0" class="active"></li>
+          <li data-target="#preOs" data-slide-to="1"></li>
+          <li data-target="#preOs" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner ">
+          <a class='homeCard item active' href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer">
+            <div>
+              <i class="fa-solid fa-bolt" style="font-size: 6em;"></i>
+              <h3 class='h-config h3-config'> Conheça a pre-OS </h3>
+              <p>Agende sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente.</p>
+              <button> Preencher OS </button>
+            </div>
+          </a>
+          <a class="homeCard item" href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer">
+            <div>
+              <i class="fa-regular fa-folder-open" style="font-size: 6em;"></i>
+              <h3 class='h-config h3-config'> Consulte sua OS </h3>
+              <p> Acompanhe o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
+              <button> Consultar OS </button>
+            </div>
+          </a>
         </div>
       </section>
     `
