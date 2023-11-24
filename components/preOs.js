@@ -15,43 +15,52 @@ class preOs extends HTMLElement {
         display: none;
       }
       
-      .homeCard {
+      .preOsMobile {
         height: 40vh;
-        width: 100%;
+        width: 90%;
+        margin: auto;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
+        gap: 20px;
         text-align: center;
-        text-decoration: none;
         color: inherit;
-        margin: 2rem 0;
+        margin-top: 1em;
+        border-bottom: 3px rgba(50, 50, 93, 0.25) solid;
+        border-radius: 15px 15px;
+        background-color: white;
+      }
+
+      .preOsMobile > p {
+        width: 90%;
+        margin: 1.2em;
+        font-size: 1.1em
       }
       
-      .homeCard > div {
+      .preOsMobile > div {
         display: flex;
-        flex-direction: column;
         align-items: center;
-        gap: 10px;
-        height: 100%;
+        gap: 30px;
       }
       
-      .homeCard > div > h3 {
-        font-size: 1.6em;
-      }
-      
-      .homeCard > div > button {
+      .preOsMobile > div > a {
         padding: 1rem;
         border-radius: 8px;
         background-color: white;
         color: black;
         border: 2px #ad0303 solid;
       }
+
+      .preOsMobile > div > a > button {
+        width: 100%;
+        background-color: white;
+      }
       
       
       @media (min-width: 1024px) {
       
-        .preOsCarousel {
+        .preOsMobile{
           display: none;
         }
       
@@ -60,7 +69,7 @@ class preOs extends HTMLElement {
           height: 70vh;
           margin: auto;
           border-radius: 15px;
-          /* background-size: ; */
+          // background-color: white;
           margin-top: 1.5em;
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
           display: flex;
@@ -145,39 +154,21 @@ class preOs extends HTMLElement {
             <p>Agilize o seu atendimento no momento da visita a nossa loja utilizando a pre-OS. Você poderá agendar sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.</p>
             <a href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer"> <button> Preencher OS </button> </a>
           </div>
-          <div class="seePreOs">
+          <div class="seePreOs" style="width:65%">
             <h3 class="h-config h3-config"> Consulte sua OS </h3>
             <p> Caso já tenha preenchido uma pre-OS e deseje saber o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
             <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar OS </button> </a>
           </div>
         </div>
-        
-        <div id="preOs" class="carousel slide preOsCarousel" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#preOs" data-slide-to="0" class="active"></li>
-          <li data-target="#preOs" data-slide-to="1"></li>
-          <li data-target="#preOs" data-slide-to="2"></li>
-        </ol>
-    
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner ">
-          <a class='homeCard item active' href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer">
-            <div>
-              <i class="fa-solid fa-bolt" style="font-size: 6em;"></i>
-              <h3 class='h-config h3-config'> Conheça a pre-OS </h3>
-              <p>Agende sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente.</p>
-              <button> Preencher OS </button>
-            </div>
-          </a>
-          <a class="homeCard item" href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer">
-            <div>
-              <i class="fa-regular fa-folder-open" style="font-size: 6em;"></i>
-              <h3 class='h-config h3-config'> Consulte sua OS </h3>
-              <p> Acompanhe o andamento da nossa assistência, clique no botão abaixo, informe o seu nome e o número da OS que deseja ver. </p>
-              <button> Consultar OS </button>
-            </div>
-          </a>
+        <div class="preOsMobile">
+          <i class="fa-solid fa-rocket" style="font-size: 7rem"></i>
+          <p>
+            Conheça a PreOs e agende sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.
+          </p>
+          <div>
+            <a href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer"> <button> Preencher OS </button> </a>
+            <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar OS </button> </a>
+          </div>
         </div>
       </section>
     `
