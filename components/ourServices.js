@@ -14,45 +14,36 @@ class OurServices extends HTMLElement {
     }
     
   .ourService > div:nth-of-type(1) { display: none;}
-    
-    .ourServiceCarousel {
-      border-radius: 8px;
-    }
-    
+
     .ourService > div {
       display: flex;
       justify-content: space-between;
       margin-top: 1.5em;
     }
-    
-    .cardHome {
-      height: 50vh;
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-direction: column;
+
+    .serviceCard {
+      background-color: #ad0303;
       text-align: center;
-      text-decoration: none;
-      color: inherit;
-    }
-    
-    .cardHome > div {
       display: flex;
-      flex-direction: column;
       align-items: center;
-      gap: 10px;
+      color: white;
+      height: 10rem;
+      width: 12rem;
+      border-radius: 15px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      text-decoration: none;
     }
-    
-    .cardHome > div > p:nth-of-type(1) {
-      font-size: 1.5em;
+
+    .serviceCard:active {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+      color: white;
+      text-decoration: none
     }
-    
-    .cardHome > div > p:nth-of-type(2) {
-      font-size: 1em;
-      color: #8A8A8A;
+
+    .serviceCard > span {
+      margin: auto;
     }
-    
+  
     @media (min-width: 1200px) { 
       .ourService {
       width: 90%;
@@ -177,7 +168,15 @@ class OurServices extends HTMLElement {
             </a>
           </div>
         </div>
-  </section>`
+
+        <div style="width: 95%; margin: auto; margin-top: 3rem">
+          <a href="/dentro-de-garantia" class="serviceCard"> 
+          <span> Para Dentro de garantia </span> </a>
+          <a href="/fora-de-garantia" class="serviceCard">
+          <span> Para Fora de garantia </span> </a>
+          <a href="/especializada" class="serviceCard"> <span> Especializada </span> </a>
+        </div>
+      </section>`
   }
 }
 
