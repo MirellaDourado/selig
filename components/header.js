@@ -18,7 +18,7 @@ class Header extends HTMLElement {
         <div>
           <a href="/" class="logo"> <img src="/assets/selig-logo.png" alt="nome SeLiG em laranja"></a>
           <nav id="nav">
-            <button class="btnMobile"> MENU </button>
+            <button class="btnMobile"> <i class="fa-solid fa-bars"></i> </button>
             <ul id="menu">
               <li> <a href="../selig"> A SeLiG </a></li>
               <li>
@@ -38,6 +38,14 @@ class Header extends HTMLElement {
       </header>
     </section>
     `
+    const btnMobile = document.querySelector('.btnMobile'); 
+
+    function toggleMenu() {
+      const nav = document.querySelector('#nav');
+      nav.classList.toggle('activate');
+    }
+
+    btnMobile.addEventListener('click', toggleMenu)
   }
 }
 
