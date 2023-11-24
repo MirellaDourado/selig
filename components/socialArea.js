@@ -30,7 +30,7 @@ class SocialArea extends HTMLElement {
     .socialArea > a {
       width: 80%;
       margin-top: 1.5em;
-      height: 15vh;
+      height: 6rem;
       border-radius: 15px;
       text-decoration: none;
     }

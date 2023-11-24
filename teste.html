@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./teste.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="logos">
+    <div class="logos-slide">
+        <img src="../assets/lg_logo.png" class="brand" />
+        <img src="../assets/samsung_logo.png" class="brand" />
+        <img src="../assets/motorola_logo.png" class="brand" />
+        <img src="../assets/aoc_logo.png" class="brand" />
+        <img src="../assets/apple_logo.png" class="brand" />
+        <img src="../assets/philco_logo.png" class="brand" />
+        <img src="../assets/philips_logo.png" class="brand" />
+        <img src="../assets/tcl_logo.png" class="brand" />
+        <img src="../assets/positivo_logo.png" class="brand"/>
+    </div>
+  </div>
+
+  <script>
+    var copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logos").appendChild(copy);
+  </script>
+</body>
+</html>

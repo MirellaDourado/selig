@@ -7,6 +7,10 @@
   font-family: 'Roboto';
 }
 
+ body {
+      background: #f2f2f2;
+    }
+
 .classMom {
   position: fixed;
   z-index: 1000;
@@ -63,7 +67,7 @@
 
 .seligHeader {
   position: relative;
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 #menu {
@@ -72,7 +76,7 @@
   visibility: hidden;
   transition: .6s;
   overflow: hidden;
-  background-color: white;
+  background-color: #f2f2f2;
   width: 100%;
   left: 0px;
   display: flex;
@@ -122,6 +126,7 @@
     display: flex;
     align-items: center;
     height: 4rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
 
   .icon {

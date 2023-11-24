@@ -12,7 +12,8 @@ class OurServices extends HTMLElement {
       margin-top: 4rem;
       width: 100%;
     }
-    .ourService > div:nth-of-type(1) { display: none;}
+    
+  .ourService > div:nth-of-type(1) { display: none;}
     
     .ourServiceCarousel {
       border-radius: 8px;
@@ -85,6 +86,8 @@ class OurServices extends HTMLElement {
         flex-direction: column;
         text-align: center;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: white;
+        border-radius: 10px;
       }
     
     .cardHome:hover {
