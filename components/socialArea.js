@@ -45,9 +45,9 @@ class SocialArea extends HTMLElement {
       font-size: 1.5em;  
       color: white;
       background-color: #ad0303;
-      margin-bottom: 3em;
       border: none;
     }
+
     .socialArea > a :hover {
       background-color: #930101;
       cursor: pointer;
@@ -88,6 +88,11 @@ class SocialArea extends HTMLElement {
       .socialArea > div > a {
         font-size: 2.5em;
       }
+
+      .socialArea > a {
+        margin-bottom: 5rem;
+      }
+
     }
     </style>
 
@@ -111,7 +116,7 @@ class SocialArea extends HTMLElement {
     <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
       <button>
         <p> Fale com a nossa equipe <i class="fa-brands fa-whatsapp" style="margin-left: 0.2em; font-size: 1.2em;"></i></p>
-        </button>
+      </button>
     </a>
   </div>`
   }
