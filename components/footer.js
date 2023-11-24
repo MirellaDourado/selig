@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    <footer class="seligFooter">
+    <footer class="seligFooter" id="contact">
       <div>
         <a> A SeLiG </a>
         <a> Assistência técnica autorizada para produtos fora de garantia </a>
