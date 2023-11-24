@@ -30,7 +30,7 @@ class Header extends HTMLElement {
                 </div>
               </li>
               <li>
-                <a href="/#contact"> Contato</a>
+                <a href="#contact"> Contato</a>
               </li>
             </ul>
           </nav>
