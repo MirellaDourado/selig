@@ -19,6 +19,7 @@
 }
 
 .brandArea {
+  border: 2px red solid;
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -28,11 +29,13 @@
 }
 
 .brandArea > p {
+  border: 2px green solid;
   font-size: 0.8em;
   text-align: justify;
 }
 
 .brandArea > img {
+  border: 2px BLUE solid;
   width: 15rem;
 }
 
