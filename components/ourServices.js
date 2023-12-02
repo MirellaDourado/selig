@@ -156,25 +156,13 @@ class OurServices extends HTMLElement {
               Saiba mais
             </a>
           </div>
-     
-          <div class="cardHome">
-          <i class="fa-solid fa-wrench icon"></i>
-            <div>
-              <p> Assistência técnica especializada </p>
-              <p> Descubra as marcas e produtos com assistência técnica especializada </p>
-            </div>
-            <a href='/especializada' class="knowMoreBtn">
-              Saiba mais
-            </a>
-          </div>
         </div>
 
         <div style="width: 95%; margin: auto; margin-top: 3rem">
           <a href="/dentro-de-garantia" class="serviceCard"> 
-          <span> Para Dentro de garantia </span> </a>
+            <span> Para Dentro de garantia </span> </a>
           <a href="/fora-de-garantia" class="serviceCard">
-          <span> Para Fora de garantia </span> </a>
-          <a href="/especializada" class="serviceCard"> <span> Especializada </span> </a>
+            <span> Para Fora de garantia </span> </a>
         </div>
       </section>`
   }
