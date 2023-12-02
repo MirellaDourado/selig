@@ -26,7 +26,6 @@ class Header extends HTMLElement {
                 <div class="hidenMenu">
                   <a href="/dentro-de-garantia">Assistência para produtos dentro de garantia</a>
                   <a href="/fora-de-garantia">Assistência para produtos fora de garantia</a>
-                  <a href="/especializada">Assistência técnica especializada</a>
                 </div>
               </li>
               <li>
