@@ -53,15 +53,15 @@ class Brands extends HTMLElement {
       <hr class="hr" />
       <div class="logos">
       <div class="logos-slide">
-          <img src="../assets/lg_logo.png" class="brand" />
-          <img src="../assets/samsung_logo.png" class="brand" />
-          <img src="../assets/motorola_logo.png" class="brand" />
-          <img src="../assets/aoc_logo.png" class="brand" />
-          <img src="../assets/apple_logo.png" class="brand" />
-          <img src="../assets/philco_logo.png" class="brand" />
-          <img src="../assets/philips_logo.png" class="brand" />
-          <img src="../assets/tcl_logo.png" class="brand" />
-          <img src="../assets/positivo_logo.png" class="brand"/>
+          <img src="../assets/logos/lg_logo.png" class="brand" />
+          <img src="../assets/logos/samsung_logo.png" class="brand" />
+          <img src="../assets/logos/motorola_logo.png" class="brand" />
+          <img src="../assets/logos/aoc_logo.png" class="brand" />
+          <img src="../assets/logos/apple_logo.png" class="brand" />
+          <img src="../assets/logos/philco_logo.png" class="brand" />
+          <img src="../assets/logos/philips_logo.png" class="brand" />
+          <img src="../assets/logos/tcl_logo.png" class="brand" />
+          <img src="../assets/logos/positivo_logo.png" class="brand"/>
       </div>
     </div>
     </section>`
