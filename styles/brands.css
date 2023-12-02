@@ -104,14 +104,24 @@
   margin: 1rem 0px 1rem 0px;
 }
 
-.contact > button {
+.contact > a {
   background-color: #23C25D;
   border: none;
-  color: white;
   width: 100%;
   height: 3rem;
   border-radius: 8px;
   font-size: 1.1em;
+}
+
+.contact > a > button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 1.1em;
+  color: white;
+
 }
 
 
@@ -150,7 +160,6 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
-    /* height: 77vh; */
   }
 
   .warrantySection {
@@ -207,7 +216,7 @@
     font-size: 1.2em;
   }
   
-  .contact > button {
+  .contact > a {
     width: 50rem;
     height: 4rem;
     font-size: 1.5em;
