@@ -22,11 +22,8 @@ class Footer extends HTMLElement {
           <a target="_blank" rel='noopener noreferrer' href='https://www.instagram.com/assistenciaselig/'>
             <i class="fa-brands fa-instagram" style="color: #333333;"></i>
           </a>
-          <a>
-            <i class="fa-brands fa-tiktok" style="color: #333333;"></i>
-          </a>
-          <a>
-          <i class="fa-brands fa-linkedin-in" style="color: #333333;"></i>
+          <a target="_blank" rel='noopener noreferrer' href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
+            <i class="fa-brands fa-whatsapp" style="color: #333333;"></i>
           </a>
         </div>
       </div>
