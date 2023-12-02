@@ -15,17 +15,18 @@ class SocialArea extends HTMLElement {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 4rem;
+      margin: 4rem 0;
       padding: 1em;
     }
     
     .socialArea > div {
       margin: auto;
       margin-top: 2.5em;
-      width: 90%;
+      width: 50%;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 10rem;
     }
     .socialArea > a {
       width: 80%;
@@ -33,24 +34,6 @@ class SocialArea extends HTMLElement {
       height: 6rem;
       border-radius: 15px;
       text-decoration: none;
-    }
-    
-    .socialArea > a > button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      border-radius: 15px;
-      font-size: 1.5em;  
-      color: white;
-      background-color: #ad0303;
-      border: none;
-    }
-
-    .socialArea > a :hover {
-      background-color: #930101;
-      cursor: pointer;
     }
     
     .socialArea > div > a {
@@ -63,61 +46,42 @@ class SocialArea extends HTMLElement {
     }
     
     @media (max-width: 480px) {
-    
-      .socialArea > button {
-        font-size: 1.2em; 
-        height: 10vh;
-      }
-    
+
       .socialArea > div > a {
         font-size: 1.5em;
       }
     
-      .socialArea > div > a > p {
-        font-size: 0.6em;
+      .socialArea > div {
+        gap: 20rem;
       }
     }
     
     @media (min-width: 1200px) and (max-width: 1919px) {
     
-      .socialArea > button {
-        height: 15vh;
-        font-size: 1.5em;  
-      }
-    
       .socialArea > div > a {
         font-size: 2.5em;
       }
 
-      .socialArea > a {
-        margin-bottom: 5rem;
+      .socialArea > div {
+        gap: 20rem;
       }
 
     }
     </style>
 
     <div class=socialArea id="contact">
-    <h2 class='h-config h2-config'> Siga Nossas Redes Sociais </h2>
+    <h2 class='h-config h2-config'> Nossas Redes Sociais </h2>
     <hr class='hr'/>
     <div>
-      <a target="_blank" rel='noopener noreferrer'href='https://www.instagram.com/assistenciaselig/'>
-        <i class="fa-brands fa-instagram" style="color: #333333; font-size: 2.3em"></i>
-      <p style="color: #333333"> Instagram </p>
-      </a>
-      <a>
-        <i class="fa-brands fa-tiktok" style="color: #333333;font-size: 2.2em; margin-bottom: 10px"></i>
-      <p style="color: #333333"> TikTok </p>
-      </a>
-      <a>
+      <a href=''>
         <i class="fa-brands fa-linkedin-in" style="color: #333333; font-size: 2.3em"></i>  
         <p style="color: #333333"> LinkedIn </p>
       </a>
+      <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
+        <i class="fa-brands fa-whatsapp" style="color: #333333; font-size: 2.3em"></i>
+        <p>WhatsApp</p>
+      </a>
     </div>
-    <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
-      <button>
-        <p> Fale com a nossa equipe <i class="fa-brands fa-whatsapp" style="margin-left: 0.2em; font-size: 1.2em;"></i></p>
-      </button>
-    </a>
   </div>`
   }
   
