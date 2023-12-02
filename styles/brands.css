@@ -23,7 +23,6 @@
   flex-direction: column;
   width: 95%;
   margin: auto;
-  align-items: center;
   margin-bottom: 2rem;
   justify-content: space-between;
 }
@@ -31,11 +30,10 @@
 .brandArea > p {
   font-size: 0.8em;
   text-align: justify;
-  width: 95%;
 }
 
 .brandArea > img {
-  width: 30rem;
+  width: 20rem;
 }
 
 .warrantySection {
@@ -93,7 +91,7 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 2rem;
-} 
+}
 
 .contact > p {
   color: #000;
@@ -162,6 +160,7 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+    /* height: 77vh; */
   }
 
   .warrantySection {
