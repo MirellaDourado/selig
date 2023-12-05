@@ -16,7 +16,8 @@ class preOs extends HTMLElement {
       }
       
       .preOsMobile {
-        height: 40vh;
+        border: 3px red solid;
+        height: 45rem;
         width: 90%;
         margin: auto;
         display: flex;
@@ -42,13 +43,18 @@ class preOs extends HTMLElement {
         display: flex;
         align-items: center;
         gap: 30px;
+        width: 95%;
+        border: 3px green solid;
+        margin: auto;
+        justify/-content: center;
       }
       
       .preOsMobile > div > a {
-        padding: 1rem;
+        padding: 0.5rem;
         border-radius: 8px;
         background-color: white;
         color: black;
+        font-size: 1.2rem;
         border: 2px #ad0303 solid;
       }
 
@@ -166,8 +172,8 @@ class preOs extends HTMLElement {
             Conheça a PreOs e agende sua assistência de uma maneira mais rápida e personalizada, podendo verificar o andamento do seu equipamente preenchendo o formulário.
           </p>
           <div>
-            <a href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer"> <button> Preencher OS </button> </a>
-            <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar OS </button> </a>
+            <a href='https://websolution.care-br.com/selig/pre_os.php' target='_blank'  rel="noreferrer"> <button> Preencher </button> </a>
+            <a href='https://websolution.care-br.com/selig/' target='_blank'  rel="noreferrer" > <button> Consultar  </button> </a>
           </div>
         </div>
       </section>

@@ -48,11 +48,7 @@ class SocialArea extends HTMLElement {
     @media (max-width: 480px) {
 
       .socialArea > div > a {
-        font-size: 1.5em;
-      }
-    
-      .socialArea > div {
-        gap: 20rem;
+        font-size: 1.6em;
       }
     }
     
