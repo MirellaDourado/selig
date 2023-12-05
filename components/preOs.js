@@ -16,7 +16,6 @@ class preOs extends HTMLElement {
       }
       
       .preOsMobile {
-        height: 30rem;
         width: 90%;
         margin: auto;
         display: flex;
@@ -30,6 +29,7 @@ class preOs extends HTMLElement {
         border-bottom: 3px rgba(50, 50, 93, 0.25) solid;
         border-radius: 15px 15px;
         background-color: white;
+        padding: 3rem;
       }
 
       .preOsMobile > p {

@@ -86,7 +86,7 @@
 }
 
 #nav.activate #menu {
-  height: 28rem;
+  height: fit-content;
   visibility: visible;
   overflow: hidden;
 }
