@@ -17,7 +17,8 @@ class OurServices extends HTMLElement {
 
     .ourService > div {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 6rem;
       margin-top: 1.5em;
     }
 
