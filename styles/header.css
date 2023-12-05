@@ -86,9 +86,10 @@
 }
 
 #nav.activate #menu {
-  height: 31.8vh;
+  height: 43vh;
   visibility: visible;
   overflow: hidden;
+  border: 2px red solid;  
 }
 
 #nav.activate #menu::-webkit-scrollbar {
