@@ -86,7 +86,7 @@
 }
 
 #nav.activate #menu {
-  height: 43vh;
+  height: 28rem;
   visibility: visible;
   overflow: hidden;
   border: 2px red solid;  
