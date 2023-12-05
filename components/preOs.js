@@ -16,8 +16,7 @@ class preOs extends HTMLElement {
       }
       
       .preOsMobile {
-        border: 3px red solid;
-        height: 45rem;
+        height: 30rem;
         width: 90%;
         margin: auto;
         display: flex;
@@ -35,7 +34,6 @@ class preOs extends HTMLElement {
 
       .preOsMobile > p {
         width: 90%;
-        margin: 1.2em;
         font-size: 1.1em
       }
       
@@ -44,13 +42,11 @@ class preOs extends HTMLElement {
         align-items: center;
         gap: 30px;
         width: 95%;
-        border: 3px green solid;
-        margin: auto;
-        justify/-content: center;
+        justify-content: center;
       }
       
       .preOsMobile > div > a {
-        padding: 0.5rem;
+        padding: 1rem;
         border-radius: 8px;
         background-color: white;
         color: black;
