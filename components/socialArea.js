@@ -69,9 +69,9 @@ class SocialArea extends HTMLElement {
     <h2 class='h-config h2-config'> Nossas Redes Sociais </h2>
     <hr class='hr'/>
     <div>
-      <a href=''>
-        <i class="fa-brands fa-linkedin-in" style="color: #333333; font-size: 2.3em"></i>  
-        <p style="color: #333333"> LinkedIn </p>
+      <a href='https://www.instagram.com/assistenciaselig/'>
+        <i class="fa-brands fa-instagram" style="color: #333333; font-size: 2.3em"></i>  
+        <p style="color: #333333"> Instagram </p>
       </a>
       <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0'>
         <i class="fa-brands fa-whatsapp" style="color: #333333; font-size: 2.3em"></i>
