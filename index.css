@@ -31,7 +31,6 @@
   color: white;
   background-size: cover;
   text-align: center;
-  margin-bottom: 2rem;
   height: 20rem;
   display: flex;
   align-items: center;
@@ -49,7 +48,6 @@
   background-color: #eeeeeee5;
   gap: 1rem;
   padding: 1rem 0 0 0;
-  margin-bottom: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -88,38 +86,32 @@
   font-size: 1.1em;
 }
 
-.brandsCarousel {
-  flex-direction: row;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  grid-row-start: 2;
-  grid-row-end: 5;
-  align-items: flex-end;
-  flex-direction: row;
-}
-
-.brandsCarousel > div {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  gap: 1.6rem;
-}
-
-.brandsCarousel > div >div:nth-of-type(1) {
-  margin-left: 2rem;
-}
-
-.brandsCarousel > div > div {
-  width: 4rem;
-  margin: auto;
-  display: flex;
+.cardWrapper {
   align-items: center;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 4rem 0;
 }
-  
+
+.cardWrapper > a > img {
+  width: 6rem;
+}
+
+.brandsCarousel {
+  border: 2px white solid;
+  background-color: white;
+}
+
+.title-brand {
+  width: 100%;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
 .card {
   display: flex;
   text-decoration: none;
@@ -127,18 +119,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 10rem;
-  height: 7rem;
+  width: 8rem;
   align-items: center;
-}
-
-.cardWrapper > a > img {
-  width: 5rem;
-  border-radius: 50%;
-}
-
-.brandsCarousel::-webkit-scrollbar {
-  display: none;
 }
 
 .contact > h4 {
