@@ -5,13 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Selig - Fora da garantia</title>
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="../app.css">
+
+  <script src="https://kit.fontawesome.com/b9ff8c608a.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" href="../index.css">
-  <link rel="stylesheet" href="../app.css">
-  <script src="https://kit.fontawesome.com/b9ff8c608a.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="../styles/header.css">
   <link rel="stylesheet" href="../styles/footer.css">
@@ -23,16 +24,16 @@
 
 <body>
   <header-component></header-component>
-  <section class="headerA">
-    <h2>Assistência para produtos fora de garantia</h2>
+  <section class="headerB" style="height: 24rem; font-size: 1.6rem;">
+    <h2 style="padding-top: 10rem; width: 100%;">Assistência para produtos fora de garantia</h2>
   </section>
 
-  <main>
+  <main style="min-height: 34rem; display: flex; align-items: center; justify-content: center;">
     <a href='https://api.whatsapp.com/send/?phone=557122037800&text&type=phone_number&app_absent=0' class="whatsapp-icon" style="text-decoration: none;">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
-    <section class="warrantySection">
-      <h3> MARCAS </h3>
+    <section style="width: 100%; margin-bottom: 4rem;">
+      <h3 class="title-brand"> MARCAS </h3>
       <div class="brandsCarousel">
         <div class="cardWrapper">
           <a href="/lg" class="card">
@@ -119,14 +120,14 @@
         </div>
       </div>
     </section>
-    <section class="contact">
-      <h4> Entre agora em contato que iremos te ajudar! </h4>
-      <p> A Selig está qualificada para oferecer o conserto, realizando tanto reparos básicos como de alta complexidade. </p>
-      <button> Entre em contato com a nossa equipe      <i class="fa-brands fa-whatsapp"></i>
-      </button>
-    </section>
   </main>
 
+  <section class="contact" style="margin-bottom: 5rem;">
+    <h4> Entre agora em contato que iremos te ajudar! </h4>
+    <p> A Selig está qualificada para oferecer o conserto, realizando tanto reparos básicos como de alta complexidade. </p>
+    <button> Entre em contato com a nossa equipe      <i class="fa-brands fa-whatsapp"></i>
+    </button>
+  </section>
   <footer-component></footer-component>
 </body>
 </html>
