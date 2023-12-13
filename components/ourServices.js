@@ -47,7 +47,7 @@ class OurServices extends HTMLElement {
   
     @media (min-width: 1200px) { 
       .ourService {
-      width: 90%;
+        width: 90%;
       } 
 
       .h2-config {
@@ -60,13 +60,13 @@ class OurServices extends HTMLElement {
       }
     
       .ourService > div:nth-of-type(2) {
-      display: none;
+        display: none;
       }
     
       .ourService > div:nth-of-type(1) {
         display: flex;
-        justify-content: space-between;
         margin-top: 1.5em;
+        gap: 10rem;
       }
     
       .cardHome {
