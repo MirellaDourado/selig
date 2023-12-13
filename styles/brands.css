@@ -1,42 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .headerB {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 0%, rgba(0, 0, 0, 0.78) 100%), url(../assets/pexels-sergei-starostin-6636497.jpg), lightgray 50% / cover no-repeat;
-  background-position: center;
-  color: white;
-  background-size: cover;
-  padding-top: 6rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  height: 25vh;
+  padding-top: 8rem;
+  height: 20rem;
 }
 
 .headerB > h2  {
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0.4em;
   font-weight: 900;
   letter-spacing: 0.15em;
+  width: 100%;
 }
 
 .brandArea {
-  border: 2px red solid;
   display: flex;
   flex-direction: column;
-  width: 95%;
+  align-items: center;
+  width: 85%;
   margin: auto;
   margin-bottom: 2rem;
-  justify-content: space-between;
+  gap: 1rem;
 }
 
 .brandArea > p {
-  border: 2px green solid;
-  font-size: 0.8em;
+  font-size: 1  em;
   text-align: justify;
 }
 
 .brandArea > img {
-  border: 2px BLUE solid;
-  width: 15rem;
+  width: 22rem;
 }
 
 .warrantySection {
@@ -46,7 +39,7 @@
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 0 2rem 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .warrantySection > div {
@@ -58,12 +51,13 @@
 .warrantySection > div > div {
   background-color: white;
   border-radius: 5%;
-  padding: 0.6rem;
-  width: 10em;
+  padding: 0 .5rem .5rem;
+  width: 12em;
 }
 
 .warrantySection > div > div > h4 {
   font-size: 0.8em;
+  padding: 1.2rem 0;
   text-align: center;
 }
 
@@ -71,11 +65,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .warrantySection > div > div > ul > div > li {
-  list-style-type: circle;
+  list-style-type: none;
+  padding: 0.3rem;
 }
 
 .warrantySection > h3 {
@@ -84,7 +79,6 @@
 
 .contact > h4 {
   text-align: center;
-  margin: 0px;
 }
 
 .contact {
@@ -93,7 +87,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .contact > p {
@@ -104,14 +98,14 @@
   font-weight: 400;
   line-height: normal;
   width: 100%;
-  margin: 1rem 0px 1rem 0px;
+  margin: 1rem 0px 2rem 0px;
 }
 
 .contact > a {
   background-color: #23C25D;
   border: none;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   border-radius: 8px;
   font-size: 1.1em;
 }
