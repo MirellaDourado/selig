@@ -24,7 +24,7 @@
 }
 
 .brandArea > p {
-  font-size: 1  em;
+  font-size: 1em;
   text-align: justify;
 }
 
@@ -52,12 +52,12 @@
   background-color: white;
   border-radius: 5%;
   padding: 0 .5rem .5rem;
-  width: 12em;
+  width: 13em;
 }
 
 .warrantySection > div > div > h4 {
-  font-size: 0.8em;
-  padding: 1.2rem 0;
+  font-size: 1.2em;
+  padding: 1rem 0;
   text-align: center;
 }
 
