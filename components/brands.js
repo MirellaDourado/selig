@@ -53,14 +53,14 @@ class Brands extends HTMLElement {
       <hr class="hr" />
       <div class="logos">
       <div class="logos-slide">
-          <img src="../assets/logos/lg_logo.png" class="brand" />
-          <img src="../assets/logos/samsung_logo.png" class="brand" />
-          <img src="../assets/logos/motorola_logo.png" class="brand" />
-          <img src="../assets/logos/aoc_logo.png" class="brand" />
-          <img src="../assets/logos/apple_logo.png" class="brand" />
-          <img src="../assets/logos/philips_logo.png" class="brand" />
-          <img src="../assets/logos/tcl_logo.png" class="brand" />
-          <img src="../assets/logos/positivo_logo.png" class="brand"/>
+          <a href="/lg"> <img src="../assets/logos/lg_logo.png" class="brand" /> </a>
+          <a href="/samsung"> <img src="../assets/logos/samsung_logo.png" class="brand" /> </a>
+          <a href="/motorola"> <img src="../assets/logos/motorola_logo.png" class="brand" /> </a>
+          <a href="/aoc"> <img src="../assets/logos/aoc_logo.png" class="brand" /> </a>
+          <a href="/apple"> <img src="../assets/logos/apple_logo.png" class="brand" /> </a>
+          <a href="/philips"> <img src="../assets/logos/philips_logo.png" class="brand" /> </a>
+          <a href="/tcl"> <img src="../assets/logos/tcl_logo.png" class="brand" /> </a>
+          <a href="/positivo"> <img src="../assets/logos/positivo_logo.png" class="brand"/> </a>
       </div>
     </div>
     </section>`
