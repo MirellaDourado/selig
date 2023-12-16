@@ -58,7 +58,6 @@ class Brands extends HTMLElement {
           <img src="../assets/logos/motorola_logo.png" class="brand" />
           <img src="../assets/logos/aoc_logo.png" class="brand" />
           <img src="../assets/logos/apple_logo.png" class="brand" />
-          <img src="../assets/logos/philco_logo.png" class="brand" />
           <img src="../assets/logos/philips_logo.png" class="brand" />
           <img src="../assets/logos/tcl_logo.png" class="brand" />
           <img src="../assets/logos/positivo_logo.png" class="brand"/>
