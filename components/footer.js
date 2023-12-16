@@ -10,7 +10,6 @@ class Footer extends HTMLElement {
         <a> A SeLiG </a>
         <a> Assistência técnica autorizada para produtos fora de garantia </a>
         <a> Assistência técnica autorizada para produtos fora de garantia </a>
-        <a> Assistência técnica especializada </a>
       </div>
       <div>
         <img src="/assets/selig-logo.png" alt='palavra SeLiG escrita na cor laranja' />
